@@ -1,0 +1,47 @@
+
+* git config
+    * 유저 정보를 설정해야함, 
+    * global로 Git 전체에서 쓸 정보 저장 가능
+    * 각 Git 폴더에서 프로젝트별로 저장 가능
+* git init
+    * Git 프로젝트 시작 (이니셜라이즈)
+* git status
+    * Git 상태 확인
+* git add
+    * 스테이지에 파일 추가
+    * 스테이지에서 제거: git reset <파일 or 경로명>
+* git commit
+    * 스테이지에 있는 파일들을 커밋
+    * VIM을 사용해서 커밋을 하게 됨
+        * i: 입력
+        * w: 저장
+        * q: 종료
+        * esc: 명령 모드
+    * 축약 가능: git commit -m “메세지”
+* git log
+    * 커밋 히스토리 확인
+    * HEAD: 최신 커밋을 나타내는 용어
+    * master: Git 기본 브랜치
+* git branch
+    * 현재 브랜치를 확인하는 명령어
+* git checkout
+    * 브랜치을 옮기는 명령어 (git checkout master, git checkout test)
+    * -b 플래그와 함께 브랜치 생성 가능 (git checkout -b hotfix)
+* git merge
+    * git merge <브랜치명>
+* git diff
+    * 파일 변경 내역 확인
+* git remote
+    * 원격 저장소
+    * git remote add <리모트 이름> <리모트 주소>
+* git push
+    * 내 커밋 로그를 원격 저장소에 동키화 시키는 명령어
+    * git push <리모트 이름> <브랜치 이름>
+* git pull
+    * 원격 저장소를 로컬 커밋 로그에 동기화 시키는 명령어
+    * git pull <리모트 이름> <브랜치 이름>
+* git clone
+    * 원격 저장소를 그대로 로컬에 복사
+    * git clone <원격 저장소 주소>
+    
+
